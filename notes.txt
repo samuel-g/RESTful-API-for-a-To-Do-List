@@ -1,0 +1,27 @@
+Initialize the project - go mod init go-todo-app
+
+Start server - go run main.go
+
+Install dependencies - go get -u github.com/gorilla/mux
+
+Package not recognized
+    go mod tidy
+    go clean
+    go build
+    go run main.go
+
+Rebuild the project - 
+
+Extensions to install - Go for VS Code v0.42.0
+
+main.go - entry point of the application
+
+router.go - define routes (Gorilla Mux)
+
+handlers.go - handler functions for each route
+
+models.go - struct to represent a to-do item
+
+go.mod - project's dependencies and go modules
+
+go.sum - versions of dependencies
